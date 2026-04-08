@@ -1,6 +1,6 @@
 {
   "name": "myinstants-scraper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small JavaScript library for scraping Myinstants country/search/category pages by following their HTML pagination model.",
   "type": "module",
   "main": "./dist/index.js",
