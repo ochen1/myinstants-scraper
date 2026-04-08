@@ -68,6 +68,25 @@ npm install
 npm run build
 ```
 
+## Publishing
+
+This package is set up for npm trusted publishing from GitHub Actions.
+
+- The publish workflow lives at `.github/workflows/publish.yml`.
+- For public npm packages published from public GitHub repositories, npm trusted
+  publishing automatically generates provenance attestations.
+- The repository metadata in `package.json` should match the GitHub repository
+  exactly.
+
+The intended release flow is:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+Then create a GitHub release from that tag, which triggers the publish workflow.
+
 ## License
 
 MIT

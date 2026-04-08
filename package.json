@@ -31,7 +31,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/myinstants-scraper.git"
+    "url": "git+https://github.com/ochen1/myinstants-scraper.git"
+  },
+  "homepage": "https://github.com/ochen1/myinstants-scraper#readme",
+  "bugs": {
+    "url": "https://github.com/ochen1/myinstants-scraper/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "engines": {
     "node": ">=18"
